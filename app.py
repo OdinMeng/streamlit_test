@@ -1,17 +1,5 @@
 import streamlit as st
 
-class Gun():
-    def __init__(self):
-        self.rounds = 6
-    
-    def shoot(self):
-        n = rnd.randint(1, self.rounds)
-        if n == 1:
-            return 'Died'
-        else:
-            self.rounds -= 1
-            return f'Alive... {self.rounds} rounds left' # Alive
-
 st.title('button clicker')
 '''look at this cool app!'''
 
